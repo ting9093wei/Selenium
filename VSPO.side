@@ -1,0 +1,131 @@
+{
+  "id": "a176890f-ba56-401c-bde7-ca14e9758694",
+  "version": "2.0",
+  "name": "VSPO",
+  "url": "https://www.youtube.com",
+  "tests": [{
+    "id": "abc94386-8745-40fe-9fb3-d8991d3edc3d",
+    "name": "花芽すみれ",
+    "commands": [{
+      "id": "794dcf48-f4dd-404c-8a0e-9537af972667",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2514308-c53c-4367-b5fa-d747f840d9c8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "385140b1-3c45-4986-9927-9c2ea0721f67",
+      "comment": "",
+      "command": "click",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "623e68c0-a5ad-4922-be72-76a49ec58c30",
+      "comment": "",
+      "command": "type",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "花芽すみれ"
+    }, {
+      "id": "93ec2a3b-05f8-47f1-8768-69283356e697",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "e535e19a-8508-49b1-8447-a36576821dde",
+    "name": "藍沢エマ",
+    "commands": [{
+      "id": "6b968a2a-3255-4774-b998-7ad6f1585b20",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3056bde-f160-456a-bd3e-6f7bb492208b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1016",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5c63fb0-c394-427d-ac64-514146aa41e8",
+      "comment": "",
+      "command": "click",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c260057-5bc3-43dc-a5e7-a35e7b18b504",
+      "comment": "",
+      "command": "type",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "藍沢エマ"
+    }, {
+      "id": "c365e574-dd06-4907-9cb1-aa2f6bd13563",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "1374bedb-f9a5-4d5f-a623-390ade72e2c0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": true,
+    "timeout": 300,
+    "tests": ["abc94386-8745-40fe-9fb3-d8991d3edc3d", "e535e19a-8508-49b1-8447-a36576821dde"]
+  }],
+  "urls": ["https://www.youtube.com/"],
+  "plugins": []
+}
